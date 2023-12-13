@@ -1,0 +1,33 @@
+{
+  "name": "turnaroundmodel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "gsap": "^3.8.0",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "three": "^0.133.1",
+    "troika-three-text": "^0.43.0"
+  }
+}
